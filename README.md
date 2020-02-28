@@ -1,14 +1,14 @@
 ---
 page_type: sample
 languages:
-- csharp
+- python
 products:
-- dotnet
-description: "Add 150 character max description"
+- azuremachinelearning
+description: "End to end Azure Machine Learning workshop"
 urlFragment: "update-this-to-unique-url-stub"
 ---
 
-# Official Microsoft Sample
+# Official Microsoft Sample for Azure Machine Learning (work in progress)
 
 <!-- 
 Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
@@ -35,19 +35,25 @@ Outline the file contents of the repository. It helps users navigate the codebas
 
 ## Prerequisites
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+The challenges in this workshop assume that you have some existing experience of using Microsoft Azure. Experience of the following is not required, but will be highly beneficial:
+
+Training machine learning models using Python frameworks such as scikit-learn.
+Managing data, compute and model training experiments with Azure Machine Learning.
 
 ## Setup
+1. Create a **Machine Learning** resource in your Azure subscription. This will create an Azure Machine Learning *workspace* and some related resources.
+    * After creating your workspace in the [Azure portal](https://portal.azure.com), use the web-based [Azure Machine Learning studio](https://ml.azure.com) interface to work with it.
+1. In your workspace, create a **Compute Instance** and wait for it to start.
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
 
 ## Running the sample
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
+Please follow the instructions for the challenges posted in this repository.
 
 ## Key concepts
 
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+* [What is an Azure Machine Learning workspace?](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
+* [What is an Azure Machine Learning compute instance?](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance)
 
 ## Contributing
 
