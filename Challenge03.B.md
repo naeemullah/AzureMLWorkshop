@@ -20,7 +20,10 @@ Finally, as in a very similar way than in Challenge 3.A, you'll also deploy the 
 
 1. Create an Azure ML pipeline using the AutoMLStep class that trains and finally registers the model into the Workspace model registry. The pipeline should run on a training cluster compute target in your Azure ML workspace (you can use the same training cluster that you used in Challenge 2.B and similar same code).
 
-    Use the [Azure Machine Learning Pipeline with AutoMLStep](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/intro-to-pipelines/aml-pipelines-with-automated-machine-learning-step.ipynb) notebook as a starting point for the code.
+    Use the following notebooks as starting point for your notebook:
+    
+    - [Azure Machine Learning Pipeline with AutoMLStep](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/intro-to-pipelines/aml-pipelines-with-automated-machine-learning-step.ipynb) 
+    - [Continous retraining using Pipelines and AutoMLStep](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/automated-machine-learning/continuous-retraining/auto-ml-continuous-retraining.ipynb)
 
 2. Define the steps for your pipeline - these should be an **AutoMLStep** for the training step, and a **PythonScriptStep** for the model registration step.
     * Train the model using an AutoMLStep.
