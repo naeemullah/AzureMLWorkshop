@@ -1,4 +1,4 @@
-# Challenge 1.B: Try baseline Azure AutoML notebook in AML Compute Instance (VM) 
+# Challenge 1.B: Try the baseline Azure AutoML notebook in AML Compute Instance (VM) 
 
 As a comparable experiment (*safe driver prediction*) with the same dataset, but simpler to code, you can also start from a baseline Azure AutoML notebook that trains a similar model and evaluates its predictive performance. This initial AutoML notebook runs on local compute (your AML Compute Instance or could also be your own PC if properly setup with the AML SDK). 
 
@@ -24,7 +24,7 @@ As a team, complete the following tasks:
 3. Download the notebook [notebooks/Challenge01.B/Challenge01.B-AutoML-Local-Compute-porto-seguro.ipynb](https://github.com/Azure-Samples/AzureMLWorkshop/blob/master/notebooks/Challenge01.B/Challenge01.B-AutoML-Local-Compute-porto-seguro.ipynb) to your local compute (i.e. Azure Compute Instance).
 5. In the JupyterLab web interface for your compute instance, open the **Users** folder, move to your user's folder, create a folder named **"Challenge01.B"** and upload that **Challenge01.B-AutoML-Local-Compute-porto-seguro.ipynb** file in the following folder structure:
 
-* **notebooks**
+* **notebooks** (folder)
     * **Challenge01.B** (folder)
         * **Challenge01.B-AutoML-Local-Compute-porto-seguro.ipynb** (file)
 * **data** (folder)
@@ -57,7 +57,7 @@ To successfully complete this challenge, you must:
 
 #### Make shorter the time of your end-to end AutoML parent training
 
-Just for time sake when working on the workshop or demos where time is limited, in order to run a shorter end-to-end AutoML training (parent run) you can limit the number of algorithms to try by AutoML and even the number of iterations with the following parameters in the AutoMLConfig class:
+Just the sake of time, when working on this workshop or demos where time is limited, in order to run a shorter end-to-end AutoML training (parent run) you can limit the number of algorithms to try with AutoML and even the number of iterations with the following parameters in the AutoMLConfig class:
 
 * `whitelist_models` parameter (Use only certain algorithms such as `LightGBM`, `LogisticRegression`, etc.)
 * `iterations` parameter (number of child runs to perform, i.e. `1` or `2`)
