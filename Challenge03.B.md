@@ -1,18 +1,20 @@
-# Challenge 3.B: Orchestrate AutoML Operationalization with a Pipeline and AutoMLStep
+# Challenge 3.B: Orchestrate AutoML Operationalization with AML Pipeline and AutoMLStep
 
 In Challenge 2.B, you transformed the initial AutoML notebook running on local compute into another notebook running on AML remote compute. 
 
-In this challenge, you'll encapsulate both model training and model registration into an Azure ML pipeline that breaks the tasks down into a sequence of steps that can be run on-demand or automatically. 
+In this challenge, you'll encapsulate both model training and model registration into an Azure ML pipeline that breaks the tasks down into a sequence of steps that can be run on-demand or automatically triggered. 
 
-Since in challenge 2.B you already had AutoML already running on remote compute, is pretty easy to convert that code into an **AML pipeline** using the **AutoMLStep**.
+Since in challenge 2.B you already had AutoML already running on remote compute, you can now convert that code into an **AML pipeline** using the **AutoMLStep**.
 
-Finally, as in a very similar way than in Challenge 3.A, you'll also deploy the registered model as a real-time inferencing service using the provided model scoring script, so it can be *consumed* by an insurance application approval application.
+Using AML Pipelines is not needed if working in isolation when experimenting. However, it AML Pipelines are critical and needed when you want to operationalize heading to MLOps/DevOps environments. 
+
+Finally, as in a very similar way than in Challenge 3.A, you'll also deploy the registered model as a real-time inferencing service using the provided model scoring script, so it could be *consumed* by an insurance application approval application to be used by hypothetical end-users.
 
 ## Recommended Reading
 
 * [Documentation - What are Azure Machine Learning pipelines?](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines)
 
-
+* [AutoMLStep class](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-runtime/azureml.train.automl.runtime.automl_step.automlstep?view=azure-ml-py)
 
 ## Challenge
 
