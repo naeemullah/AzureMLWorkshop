@@ -15,6 +15,8 @@ urlFragment: "update-this-to-unique-url-stub"
 
 ## Bonus - Use VSCode on Compute Instance: https://github.com/danielsc/azureml-debug-training/blob/master/Setting%20up%20VSCode%20Remote%20on%20an%20AzureML%20Notebook%20VM.md
 
+## Create SSH keys https://devconnected.com/how-to-setup-ssh-keys-on-github/#Create_SSH_keys_on_Windows_using_ssh-keygen
+
 The growth of software solutions that include a machine learning component has resulted in a increased need to integrate DevOps practices with traditional data science processes for data preparation and model training, taking into account some of the unique tools and techniques that are specific to the machine learning lifecycle. This machine learning-focused approach to DevOps is sometimes referred to as MLOps.
 
 
