@@ -32,9 +32,8 @@ As a team, complete the following tasks:
 4. Download and extract the [OpenHack files](https://mlopsohdata.blob.core.windows.net/mlopsohdata/dsdevops-oh-files.zip) to your local machine.
 5. In the Jupyter web interface for your compute instance, open the **Users** folder, move to your user's folder, create a folder named **"Challenge01.A"** and upload the following files in the following structure:
 
-* **notebooks**
-    * **Challenge01.A** (folder)
-        * **porto_seguro_safe_driver_prediction_LGBM.ipynb**
+* **notebooks** (folder)
+    * **porto_seguro_safe_driver_prediction_LGBM.ipynb**
 * **data** (folder)
     * **porto_seguro_safe_driver_prediction_train.csv**
 
