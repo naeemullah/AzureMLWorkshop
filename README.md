@@ -11,6 +11,7 @@ urlFragment: "update-this-to-unique-url-stub"
 # Workshop: Azure ML and MLOps 
 
 ## Workshop Resource Group: https://aka.ms/amlworkshoprg
+## Training Data: https://azmlworkshopdata.blob.core.windows.net/safedriverdata/porto_seguro_safe_driver_prediction_train.csv
 
 The growth of software solutions that include a machine learning component has resulted in a increased need to integrate DevOps practices with traditional data science processes for data preparation and model training, taking into account some of the unique tools and techniques that are specific to the machine learning lifecycle. This machine learning-focused approach to DevOps is sometimes referred to as MLOps.
 
