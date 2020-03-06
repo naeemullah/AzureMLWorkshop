@@ -30,11 +30,11 @@ As a team, complete the following tasks:
     * You can also try **JupyterLab**. We recommend it over **Jupyter** since it will provide better visibility of the files and folders you are using on each Challenge.
 
 4. Download and extract the [OpenHack files](https://mlopsohdata.blob.core.windows.net/mlopsohdata/dsdevops-oh-files.zip) to your local machine.
-5. In the Jupyter web interface for your compute instance, open the **Users** folder, move to your user's folder, create a folder named **"Challenge01.A"** and upload the following files in the following structure:
+5. In the Jupyter web interface for your compute instance, open the **Users** folder, move to your user's folder, create a folder named **"notebooks"** and upload the following files in the following structure:
 
-* **notebooks** (folder)
-    * **porto_seguro_safe_driver_prediction_LGBM.ipynb**
-* **data** (folder)
+* **Challenge01.A** (folder)
+  * **porto_seguro_safe_driver_prediction_LGBM.ipynb**
+  * **data** (folder)
     * **porto_seguro_safe_driver_prediction_train.csv**
 
 6. In Jupyter, open the **porto-seguro-safe-driver-prediction-LGBM.ipynb** notebook, and run the code it contains to train and validate the insurance claim classification model. Verify that a trained model file (*.pkl) was created.
