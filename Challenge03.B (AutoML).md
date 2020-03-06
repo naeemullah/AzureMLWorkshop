@@ -29,7 +29,7 @@ Use the following notebooks as starting point for your notebook:
 - [Continous retraining using Pipelines and AutoMLStep](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/automated-machine-learning/continuous-retraining/auto-ml-continuous-retraining.ipynb)
 
 1. **Start from notebook template to be completed by you:**  
-Create a new folder named "Challenge03.B" and then copy the notebook template file "Challenge_3.B_aml_pipeline_automlstep_TEMPLATE.ipynb" and rename it to "Challenge_3.B_aml_pipeline_automlstep_TEMPLATE.ipynb", so you have the following folder and files structure: 
+Create a new folder named "Challenge03.B" and then copy the notebook template file "Challenge_3.B_aml_pipeline_automlstep_TEMPLATE.ipynb" and rename it to "Challenge_3.B_aml_pipeline_automlstep.ipynb", so you have the following folder and files structure: 
 
 * notebooks (folder)
     * **Challenge03.B** (folder)
